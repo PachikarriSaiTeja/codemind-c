@@ -1,19 +1,22 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
-    int a,b,c,d,i,j,x,z,q,sum=0,p;
+    int a,d,b,s,p=0;
     scanf("%d",&a);
-    b=a;
-    q=a*a;
-    p=q;
-    while(p!=0)
+    b = a*a;
+    while(b!=0)
     {
-        int r=p%10;
-         sum=sum+r;
-         p=p/10;
+        d = b%10;
+        p = p+d;
+        b = b/10;
     }
-    if(sum==a) printf("Neon Number");
-    else printf("Not Neon Number");
-    
+    if(p==a)
+    {
+        printf("Neon Number");
+    }
+    else
+    {
+        printf("Not Neon Number");
+    }
     
 }
