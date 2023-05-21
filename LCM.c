@@ -4,6 +4,7 @@ int main() {
 
     int n1, n2, max;
 
+ 
     scanf("%d %d", &n1, &n2);
 
     // maximum number between n1 and n2 is stored in max
@@ -18,4 +19,3 @@ int main() {
     }
     return 0;
 }
-
